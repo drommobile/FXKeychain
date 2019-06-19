@@ -147,7 +147,7 @@
     query[(__bridge NSString *)kSecReturnData] = (__bridge id)kCFBooleanTrue;
     query[(__bridge NSString *)kSecAttrAccount] = [key description];
 
-#if TARGET_OS_IPHONE && !TARGET_IPHONE_SIMULATOR
+#if TARGET_OS_IPHONE
     
     if ([_accessGroup length]) query[(__bridge NSString *)kSecAttrAccessGroup] = _accessGroup;
     
@@ -171,7 +171,7 @@
     query[(__bridge NSString *)kSecClass] = (__bridge id)kSecClassGenericPassword;
     query[(__bridge NSString *)kSecAttrAccount] = [key description];
     
-#if TARGET_OS_IPHONE && !TARGET_IPHONE_SIMULATOR
+#if TARGET_OS_IPHONE
     
     if ([_accessGroup length]) query[(__bridge NSString *)kSecAttrAccessGroup] = _accessGroup;
     
