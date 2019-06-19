@@ -1,7 +1,7 @@
 //
 //  FXKeychain.m
 //
-//  Version 1.5.3
+//  Version 1.5.4
 //
 //  Created by Nick Lockwood on 29/12/2012.
 //  Copyright 2012 Charcoal Design

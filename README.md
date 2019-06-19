@@ -138,6 +138,10 @@ These values behave the same way as their non-ThisDeviceOnly counterparts, excep
 Release Notes
 ----------------
 
+Version 1.5.4
+
+- Enabled access groups on iOS simulator
+
 Version 1.5.3
 
 - Fixed crash when stored value is an array
